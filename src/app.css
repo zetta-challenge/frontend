@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@config "../tailwind.config.ts";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--spacing-half: 50%;
+	--radius-4xl: 2rem;
+	--radius-5xl: 3rem;
+	--radius-6xl: 5rem;
+	--color-gwhite: rgb(250 250 255);
+	--color-alice-blue: rgb(244 250 255);
+	--color-flash-white: rgb(239, 241, 243);
+	--color-metalic: rgb(232 235 236);
+	--color-cadet-gray: rgb(149 163 164);
+	--color-payne-gray: rgb(79 93 117);
+	--color-smoke: rgb(60 60 60);
+	--color-gunmetal: rgb(48 52 63);
+	--color-eerie-black: rgb(36 36 35);
+	--color-night: rgb(15 14 14);
+	--color-balpha2: rgba(0, 0, 0, 0.2);
+	--color-balpha4: rgba(0, 0, 0, 0.4);
+	--color-balpha6: rgba(0, 0, 0, 0.6);
+	--color-balpha7: rgba(0, 0, 0, 0.7);
+	--color-balpha79: rgba(0, 0, 0, 0.79);
+	--color-walpha1: rgba(255, 255, 255, 0.1);
+	--color-walpha2: rgba(255, 255, 255, 0.2);
+	--color-walpha3: rgba(255, 255, 255, 0.3);
+	--color-walpha57: rgba(250, 250, 255, 0.57);
+}
